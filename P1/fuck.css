@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(255,255,255,0.3)
+    ),url(https://media.giphy.com/media/YZpUlyGLndm48/giphy.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+label {
+    font-family: 'Black Ops One', cursive;
+ 
+    font-size: 35px;
+    width: 100vw;
+    margin-top: calc(50vh - 10vw);
+    text-align: center;
+    background: linear-gradient(
+        60deg,
+        hsl(0, 75%, 50%) 10%,
+        hsl(20, 75%, 50%) 10%,
+        hsl(20, 75%, 50%) 25%,
+        hsl(50, 75%, 50%) 25%,
+        hsl(50, 75%, 50%) 40%,
+        hsl(130, 75%, 50%) 40%,
+        hsl(130, 75%, 50%) 55%,
+        hsl(200, 75%, 50%) 55%,
+        hsl(200, 75%, 50%) 70%,
+        hsl(260, 75%, 50%) 70%,
+        hsl(260, 75%, 50%) 85%,
+        hsl(0, 75%, 50%) 85%
+    );
+
+    
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: 15s BeProud linear infinite,
+    7s Always ease alternate infinite;
+}
+
+@keyframes BeProud {
+    100% { background-position: 100vw 0px; }
+}
+
+@keyframes Always {
+    100% { transform: scale(1.1);}
+}
+p{
+    font-weight: 600;
+    font-size: 35px;
+    color: gold;
+}
+input , select , textarea{
+    font-family: 'Pacifico', cursive;
+    color: red;
+    background-color: black;
+    font-weight: bold;
+    border: 2px solid darkred;
+    height: 40px;
+    font-size: 25px;
+    width: auto;
+}
+select{
+    height: 40px;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+}

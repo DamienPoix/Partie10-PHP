@@ -1,0 +1,21 @@
+body{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 55px;
+    text-align: center;
+    color: #ff5500;
+    background: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(255,255,255,0.2)
+    ),url(https://images.wallpaperscraft.com/image/robot_machine_turtle_weapons_people_62545_2560x1600.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-style: oblique ;
+    text-decoration: underline;
+    
+}
+p{   
+  font-size: 72px;
+  background: -webkit-linear-gradient(#ff9700,#ff4d00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
